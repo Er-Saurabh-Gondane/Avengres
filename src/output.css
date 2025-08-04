@@ -25,7 +25,6 @@
     --text-6xl--line-height: 1;
     --font-weight-semibold: 600;
     --ease-in: cubic-bezier(0.4, 0, 1, 1);
-    --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
     --default-transition-duration: 150ms;
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --default-font-family: var(--font-sans);
@@ -208,6 +207,9 @@
   .mx-auto {
     margin-inline: auto;
   }
+  .my-\[80px\] {
+    margin-block: 80px;
+  }
   .mt-2 {
     margin-top: calc(var(--spacing) * 2);
   }
@@ -217,11 +219,26 @@
   .mt-36 {
     margin-top: calc(var(--spacing) * 36);
   }
+  .mt-\[0px\] {
+    margin-top: 0px;
+  }
+  .mt-\[60px\] {
+    margin-top: 60px;
+  }
   .mt-\[80px\] {
     margin-top: 80px;
   }
+  .mb-3 {
+    margin-bottom: calc(var(--spacing) * 3);
+  }
+  .mb-3\.5 {
+    margin-bottom: calc(var(--spacing) * 3.5);
+  }
   .mb-5 {
     margin-bottom: calc(var(--spacing) * 5);
+  }
+  .mb-8 {
+    margin-bottom: calc(var(--spacing) * 8);
   }
   .mb-16 {
     margin-bottom: calc(var(--spacing) * 16);
@@ -231,6 +248,9 @@
   }
   .mb-22 {
     margin-bottom: calc(var(--spacing) * 22);
+  }
+  .mb-\[40px\] {
+    margin-bottom: 40px;
   }
   .mb-\[200px\] {
     margin-bottom: 200px;
@@ -247,23 +267,17 @@
   .table {
     display: table;
   }
-  .h-\[0px\] {
-    height: 0px;
-  }
-  .h-\[2px\] {
-    height: 2px;
-  }
-  .h-\[10px\] {
-    height: 10px;
-  }
-  .h-\[240px\] {
-    height: 240px;
-  }
   .h-\[300px\] {
     height: 300px;
   }
+  .h-\[400px\] {
+    height: 400px;
+  }
   .h-screen {
     height: 100vh;
+  }
+  .w-\[400px\] {
+    width: 400px;
   }
   .w-full {
     width: 100%;
